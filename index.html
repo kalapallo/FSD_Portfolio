@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="description" content="Online portfolio" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <div class="header__image">
+        <img src="images/80x60.png" alt="Header image">
+      </div>
+      <h1 class="header__title">Cool Person</h1>
+      <h2 class="header__subtitle">Software Developer</h2>
+    </header>
+
+    <hr>
+
+    <div class="main__image">
+      <picture>
+        <source-media=(min-width: 800px) srcset="images/1600x700 2x, images/800x350 1x"/>
+        <img src="images/800x350.png" srcset="images/800x350.png 800w" alt="Header image">
+        <!-- <img src="images/800x350.png" srcset="images/1600x700.png 1600w, images/800x350.png 800w" alt="Header image"> -->
+      </picture>
+    </div>
+
+    <h3 class="works">Featured Work</h3>
+    <div class="container">
+      <div class="work">
+        <!-- IMAGE 2 -->
+        <picture>
+          <source-media=(min-width: 800px) srcset="images/500x320 2x, images/250x160 1x"/>
+          <img src="images/250x160.png" srcset="images/250x160.png 800w" alt="Appify image">
+          <figcaption>
+            <div class="caption__large">Appify</div>
+            https://github.com/udacity/Appify
+          </figcaption>
+        </picture>
+      </div>
+
+      <div class="work">
+        <!-- IMAGE 3 -->
+        <picture>
+          <source-media=(min-width: 800px) srcset="images/500x320 2x, images/250x160 1x"/>
+          <img src="images/250x160.png" srcset="images/250x160.png 800w" alt="Sunflower image">
+          <figcaption>
+            <div class="caption__large">Sunflower</div>
+            https://github.com/udacity/Sunflower
+          </figcaption>
+          <!--div class="caption">Sunflower</caption-->
+        </picture>
+      </div>
+
+      <div class="work">
+        <!-- IMAGE 4 -->
+        <picture>
+          <source-media=(min-width: 800px) srcset="images/500x320 2x, images/250x160 1x"/>
+          <img src="images/250x160.png" srcset="images/250x160.png 800w" alt="Bokeh image">
+          <figcaption>
+            <div class="caption__large">Bokeh</div>
+            <div class="caption__small">https://github.com/udacity/Bokeh</div>
+          </figcaption>
+        </picture>
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>
