@@ -5,64 +5,70 @@
   <title>Portfolio</title>
   <meta name="description" content="Online portfolio" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
   <main>
     <header>
-      <div class="header__image">
+      <div class="header-image">
         <img src="img/80x60.png" alt="Header image">
       </div>
-      <h1 class="header__title">Hannu Klemetti</h1>
-      <h2 class="header__subtitle">Software Developer</h2>
+      <h1 class="header-title">Hannu Klemetti</h1>
+      <h2 class="header-subtitle">Software Developer</h2>
     </header>
 
     <hr class="separator">
 
-    <div class="main__image">
+    <div class="main-image">
       <picture>
         <source media="(min-width: 400px)" srcset="img/1600x700.png 2x, img/800x350.png 1x">
         <img src="img/800x350.png" srcset="img/800x350.png 800w, img/400x175.png 400w" sizes="100vw" alt="Main image">
       </picture>
     </div>
 
-    <h3 class="row__title">Featured Work</h3>
+    <h3 class="row-title">Featured Work</h3>
     <div class="container">
       <div class="row">
         <div class="col">
-          <picture>
-            <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
-            <img src="img/250x160.png" alt="Appify image">
-          </picture>
-          <div class="caption">
-            <div class="caption__large">Appify</div>
-            <div class="caption__small">https://github.com/udacity/Appify</div>
-          </div>
+          <article>
+            <picture>
+              <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
+              <img src="img/250x160.png" alt="Appify image">
+            </picture>
+            <div class="caption">
+              <p class="caption-large">Appify</p>
+              <p class="caption-small">https://github.com/udacity/Appify</p>
+            </div>
+          </article>
         </div>
 
         <div class="col">
-          <picture>
-            <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
-            <img src="img/250x160.png" alt="Sunflower image">
-          </picture>
-          <div class="caption">
-            <div class="caption__large">Sunflower</div>
-            <div class="caption__small">https://github.com/udacity/Sunflower</div>
-          </div>
+          <article>
+            <picture>
+              <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
+              <img src="img/250x160.png" alt="Sunflower image">
+            </picture>
+            <div class="caption">
+              <p class="caption-large">Sunflower</p>
+              <p class="caption-small">https://github.com/udacity/Sunflower</p>
+            </div>
+          </article>
         </div>
 
         <div class="col">
-          <picture>
-            <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
-            <img src="img/250x160.png" alt="Bokeh image">
-          </picture>
-          <div class="caption">
-            <div class="caption__large">Bokeh</div>
-            <div class="caption__small">https://github.com/udacity/Bokeh</div>
-          </div>
+          <article>
+            <picture>
+              <source media="(min-width: 250px)" srcset="img/500x320.png 2x, img/250x160.png 1x">
+              <img src="img/250x160.png" alt="Bokeh image">
+            </picture>
+            <div class="caption">
+              <p class="caption-large">Bokeh</p>
+              <p class="caption-small">https://github.com/udacity/Bokeh</p>
+            </div>
+          </article>
         </div>
       </div>
     </div>

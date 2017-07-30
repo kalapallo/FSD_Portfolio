@@ -17,7 +17,7 @@ body, html {
   color: #424242;
 }
 
-.header__title, .header__subtitle {
+.header-title, .header-subtitle {
   text-align: right;
   font-weight: 300;
 }
@@ -44,17 +44,17 @@ header {
   text-transform: uppercase;
 }
 
-.header__image {
+.header-image {
   float: left;
   background-color: #02b3e4;
 }
 
-.header__title {
+.header-title {
   font-size: 30px;
   margin: 0;
 }
 
-.header__subtitle {
+.header-subtitle {
   font-size: 16px;
   margin: 0;
 }
@@ -68,7 +68,7 @@ header {
   margin-top: 2em;
 }
 
-.row__title {
+.row-title {
   color: #7d97ad;
   font-size: 24px;
   font-weight: 300;
@@ -94,11 +94,11 @@ header {
   }
 }
 
-div.col:first-child {
+.col:first-child {
     margin-left: 0px;
 }
 
-div.col:last-child {
+.col:last-child {
     margin-right: 0px;
 }
 
@@ -106,7 +106,13 @@ div.col:last-child {
   width: 100%;
 }
 
-.caption__large {
+.caption-large {
   text-transform: uppercase;
   font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.caption-small {
+  margin-top: 0px;
 }
