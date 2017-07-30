@@ -25,6 +25,7 @@ main {
 
 img {
   max-width: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 800px) {
@@ -87,12 +88,12 @@ hr {
 
 .col {
   /*max-*/width: 250px;
-  /*max-width: 33.3%;*/
-  /*margin-left: 12.5px;*/
-  margin-right: 25px;
-  /*flex-shrink: 0;
-  flex-grow: 1;
-  flex-basis: auto;*/
+}
+
+@media screen and (min-width: 275px) {
+  .col {
+    margin-right: 25px;
+  }
 }
 
 div.col:first-child {
