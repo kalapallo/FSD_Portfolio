@@ -1,6 +1,9 @@
-/*#02b3e4
+/*
+Colors used:
+#02b3e4
 #2d3c49
-#7d97ad*/
+#7d97ad
+*/
 
 body, html {
   margin: 0;
@@ -39,25 +42,16 @@ img {
 header {
   width: 100%;
   text-transform: uppercase;
-  /*display: flex;*/
 }
 
-hr {
-  border-width: 2px;
-  border-color: #7d97ad;
-  background-color: #7d97ad;
-  border-style: solid;
-  margin-bottom: 1em;
-  margin-top: 2em;
+.header__image {
+  float: left;
+  background-color: #02b3e4;
 }
 
 .header__title {
   font-size: 30px;
-  /*font-weight: lighter;*/
   margin: 0;
-  /*padding: 0;*/
-  /*display: inline-block;*/
-  /*text-align: right;*/
 }
 
 .header__subtitle {
@@ -65,9 +59,13 @@ hr {
   margin: 0;
 }
 
-.header__image {
-  float: left;
-  background-color: #02b3e4;
+.separator {
+  border-width: 2px;
+  border-color: #7d97ad;
+  background-color: #7d97ad;
+  border-style: solid;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .row__title {
@@ -87,7 +85,7 @@ hr {
 }
 
 .col {
-  /*max-*/width: 250px;
+  width: 250px;
 }
 
 @media screen and (min-width: 275px) {
@@ -104,16 +102,11 @@ div.col:last-child {
     margin-right: 0px;
 }
 
+.caption {
+  width: 100%;
+}
+
 .caption__large {
   text-transform: uppercase;
   font-size: 20px;
 }
-
-
-/*@media screen and (min-width: 250px) {
-  .col {
-    width: 250px;
-    /*width: 33.3%;
-  }
-}*/
-
